@@ -260,7 +260,7 @@ class DeserializeOperation: Operation {
 	fileprivate func extractToOneRelationship(_ key: String, from serializedData: JSON, linkedType: ResourceType) -> Resource? {
 		var resource: Resource? = nil
 		
-		if let linkData = serializedData["relationships"][key].dictionary {
+		if let linkData = serializedData["relationships"][key].dictionary, let data = linkData["data"], data.null == nil {
 			let type = linkData["data"]?["type"].string ?? linkedType
 			
 			if let id = linkData["data"]?["id"].string {
