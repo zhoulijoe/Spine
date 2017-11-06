@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		240BCA441CD92FC700842222 /* Spine.h in Headers */ = {isa = PBXBuildFile; fileRef = D373F78D19B2249900275AFC /* Spine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		240BCA451CD92FCE00842222 /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A319B224BB00275AFC /* Spine.swift */; };
+		240BCA461CD92FCF00842222 /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A319B224BB00275AFC /* Spine.swift */; };
 		240BCA471CD92FD200842222 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331836B19B2302500936FBB /* Query.swift */; };
 		240BCA481CD92FD200842222 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331836B19B2302500936FBB /* Query.swift */; };
 		240BCA491CD92FD600842222 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3452C2E1AD18E6900CD413B /* Operation.swift */; };
@@ -59,6 +61,7 @@
 		240BCA7B1CD9312C00842222 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240BCA751CD930BE00842222 /* Result.framework */; };
 		240BCA7C1CD9312D00842222 /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240BCA771CD930C700842222 /* BrightFutures.framework */; };
 		240BCA7D1CD9313000842222 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240BCA791CD930CD00842222 /* SwiftyJSON.framework */; };
+		24E6DF5F1D6830FF0072D4DC /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A319B224BB00275AFC /* Spine.swift */; };
 		24E6DF601D6830FF0072D4DC /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331836B19B2302500936FBB /* Query.swift */; };
 		24E6DF611D6830FF0072D4DC /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3452C2E1AD18E6900CD413B /* Operation.swift */; };
 		24E6DF621D6830FF0072D4DC /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FB17E19B9D7F10073A888 /* Networking.swift */; };
@@ -79,6 +82,7 @@
 		24E6DF751D6831520072D4DC /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E6DF721D6831520072D4DC /* SwiftyJSON.framework */; };
 		24EA5DB11D2D39A700F3E867 /* SingleFooWithUnregisteredType.json in Resources */ = {isa = PBXBuildFile; fileRef = 24EA5DB01D2D39A100F3E867 /* SingleFooWithUnregisteredType.json */; };
 		24EA5DB21D2D39A800F3E867 /* SingleFooWithUnregisteredType.json in Resources */ = {isa = PBXBuildFile; fileRef = 24EA5DB01D2D39A100F3E867 /* SingleFooWithUnregisteredType.json */; };
+		D302A6531DA13BAF00420C48 /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A319B224BB00275AFC /* Spine.swift */; };
 		D302A6541DA13BAF00420C48 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331836B19B2302500936FBB /* Query.swift */; };
 		D302A6551DA13BAF00420C48 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3452C2E1AD18E6900CD413B /* Operation.swift */; };
 		D302A6561DA13BAF00420C48 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FB17E19B9D7F10073A888 /* Networking.swift */; };
@@ -138,6 +142,7 @@
 		D3502C351A93A87100F91266 /* ValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35F9D471A532EC600E5FF97 /* ValueFormatter.swift */; };
 		D350478A1A94FF70002FDF57 /* MultipleFoos.json in Resources */ = {isa = PBXBuildFile; fileRef = D35047891A94FF70002FDF57 /* MultipleFoos.json */; };
 		D35468821AD429D7000E8B6F /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35468811AD429D7000E8B6F /* Errors.swift */; };
+		D35CE46D19B276E4002B358E /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A319B224BB00275AFC /* Spine.swift */; };
 		D35CE46E19B276E4002B358E /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331836B19B2302500936FBB /* Query.swift */; };
 		D35CE46F19B276E4002B358E /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A219B224BB00275AFC /* Resource.swift */; };
 		D35CE47019B276E4002B358E /* Serializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A119B224BB00275AFC /* Serializing.swift */; };
@@ -154,6 +159,7 @@
 		D373F79819B2249900275AFC /* SpineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F79719B2249900275AFC /* SpineTests.swift */; };
 		D373F7A419B224BB00275AFC /* Serializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A119B224BB00275AFC /* Serializing.swift */; };
 		D373F7A519B224BB00275AFC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A219B224BB00275AFC /* Resource.swift */; };
+		D373F7A619B224BB00275AFC /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A319B224BB00275AFC /* Spine.swift */; };
 		D39256211AD44DCE00AB3867 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35468811AD429D7000E8B6F /* Errors.swift */; };
 		D3960DF11A9B5FBC009948B0 /* Errors.json in Resources */ = {isa = PBXBuildFile; fileRef = D3960DF01A9B5FBC009948B0 /* Errors.json */; };
 		D39890F51C3D571F005CFB93 /* ResourceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39890F41C3D571F005CFB93 /* ResourceFactory.swift */; };
@@ -163,6 +169,7 @@
 		D398E1321DA1548C00FBC6FD /* Result.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E6DF711D6831520072D4DC /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D398E1331DA1548C00FBC6FD /* BrightFutures.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E6DF701D6831520072D4DC /* BrightFutures.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D398E1341DA1548C00FBC6FD /* SwiftyJSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E6DF721D6831520072D4DC /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D398E14F1DA1554E00FBC6FD /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A319B224BB00275AFC /* Spine.swift */; };
 		D398E1501DA1554E00FBC6FD /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331836B19B2302500936FBB /* Query.swift */; };
 		D398E1511DA1554E00FBC6FD /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3452C2E1AD18E6900CD413B /* Operation.swift */; };
 		D398E1521DA1554E00FBC6FD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FB17E19B9D7F10073A888 /* Networking.swift */; };
@@ -250,6 +257,7 @@
 		D373F79719B2249900275AFC /* SpineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpineTests.swift; sourceTree = "<group>"; };
 		D373F7A119B224BB00275AFC /* Serializing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializing.swift; sourceTree = "<group>"; };
 		D373F7A219B224BB00275AFC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		D373F7A319B224BB00275AFC /* Spine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Spine.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D37FB17E19B9D7F10073A888 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		D3960DF01A9B5FBC009948B0 /* Errors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Errors.json; sourceTree = "<group>"; };
 		D39890F41C3D571F005CFB93 /* ResourceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceFactory.swift; sourceTree = "<group>"; };
@@ -449,6 +457,7 @@
 			isa = PBXGroup;
 			children = (
 				D373F78D19B2249900275AFC /* Spine.h */,
+				D373F7A319B224BB00275AFC /* Spine.swift */,
 				D331836B19B2302500936FBB /* Query.swift */,
 				D3452C2E1AD18E6900CD413B /* Operation.swift */,
 				D37FB17E19B9D7F10073A888 /* Networking.swift */,
@@ -863,6 +872,7 @@
 				240BCA591CD92FF200842222 /* Serializing.swift in Sources */,
 				240BCA551CD92FEA00842222 /* ResourceCollection.swift in Sources */,
 				240BCA471CD92FD200842222 /* Query.swift in Sources */,
+				240BCA451CD92FCE00842222 /* Spine.swift in Sources */,
 				240BCA491CD92FD600842222 /* Operation.swift in Sources */,
 				240BCA631CD9300200842222 /* KeyFormatter.swift in Sources */,
 				240BCA5B1CD92FF700842222 /* ResourceFactory.swift in Sources */,
@@ -889,6 +899,7 @@
 				240BCA561CD92FEB00842222 /* ResourceCollection.swift in Sources */,
 				240BCA481CD92FD200842222 /* Query.swift in Sources */,
 				240BCA661CD9301100842222 /* QueryTests.swift in Sources */,
+				240BCA461CD92FCF00842222 /* Spine.swift in Sources */,
 				240BCA6B1CD9301D00842222 /* Utilities.swift in Sources */,
 				240BCA4A1CD92FD700842222 /* Operation.swift in Sources */,
 				240BCA641CD9300300842222 /* KeyFormatter.swift in Sources */,
@@ -908,6 +919,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E6DF5F1D6830FF0072D4DC /* Spine.swift in Sources */,
 				24E6DF601D6830FF0072D4DC /* Query.swift in Sources */,
 				24E6DF611D6830FF0072D4DC /* Operation.swift in Sources */,
 				24E6DF621D6830FF0072D4DC /* Networking.swift in Sources */,
@@ -930,6 +942,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D302A6531DA13BAF00420C48 /* Spine.swift in Sources */,
 				D302A6541DA13BAF00420C48 /* Query.swift in Sources */,
 				D302A6551DA13BAF00420C48 /* Operation.swift in Sources */,
 				D302A6561DA13BAF00420C48 /* Networking.swift in Sources */,
@@ -966,6 +979,7 @@
 				D35468821AD429D7000E8B6F /* Errors.swift in Sources */,
 				D3452C311AD19B0900CD413B /* Logging.swift in Sources */,
 				D331836C19B2302500936FBB /* Query.swift in Sources */,
+				D373F7A619B224BB00275AFC /* Spine.swift in Sources */,
 				D35F9D411A53014500E5FF97 /* DeserializeOperation.swift in Sources */,
 				D373F7A419B224BB00275AFC /* Serializing.swift in Sources */,
 				D3DFBB6519B9DC64009785BE /* Networking.swift in Sources */,
@@ -998,6 +1012,7 @@
 				D312E30219BB8822004BB3E0 /* Networking.swift in Sources */,
 				D39890F71C3D5978005CFB93 /* ResourceFactory.swift in Sources */,
 				D35DAAEF1A96323600E59545 /* Utilities.swift in Sources */,
+				D35CE46D19B276E4002B358E /* Spine.swift in Sources */,
 				D36B3A221A98AFA60014B4EA /* ResourceCollectionTests.swift in Sources */,
 				D35DAAEB1A9627FD00E59545 /* Fixtures.swift in Sources */,
 				D35CE46F19B276E4002B358E /* Resource.swift in Sources */,
@@ -1022,6 +1037,7 @@
 				D398E1591DA1554E00FBC6FD /* Serializing.swift in Sources */,
 				D398E1571DA1554E00FBC6FD /* ResourceCollection.swift in Sources */,
 				D398E1501DA1554E00FBC6FD /* Query.swift in Sources */,
+				D398E14F1DA1554E00FBC6FD /* Spine.swift in Sources */,
 				D398E1511DA1554E00FBC6FD /* Operation.swift in Sources */,
 				D398E15E1DA1554E00FBC6FD /* KeyFormatter.swift in Sources */,
 				D398E15A1DA1554E00FBC6FD /* ResourceFactory.swift in Sources */,
@@ -1533,7 +1549,6 @@
 				D398E14E1DA1554300FBC6FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
